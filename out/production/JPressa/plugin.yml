@@ -1,0 +1,8 @@
+name: JPressa
+version: 1.0
+author: JDev
+description: Um plugin básico de pressa.
+main: me.jdev.jpressa.Main
+commands:
+  pressa:
+    aliases: [haste, pressa2, pressaii, haste2, hasteii]

@@ -1,0 +1,38 @@
+# -
+# Autor: JDev
+# Versão: 1.0
+# -
+
+#Aqui você irá definir se o plugin estará ativado em seu servidor.
+ativar: true
+
+#Aqui você irá definir qual o mundo que você quer que os jogadores possam usar o comando.
+mundoMina: 'mina'
+
+#Aqui você irá definir as mensagens do plugin.
+pressa-ativada:
+  - ''
+  - '&aFunção de pressa iniciada.'
+  - ''
+pressa-desativada:
+  - ''
+  - '&cFunção de pressa desativada.'
+  - ''
+plugin-ativado: '&aPlugin ativado com sucesso!'
+plugin-desativado: '&cPlugin desativado.'
+mundo-errado: '&cVocê precisa estar na mina para utilizar este comando.'
+sem-permissao: '&cVocê precisa ser do grupo &3Guerreiro &cou superior para executar este comando.'
+saiu-da-mina: '&cVocê saiu da mina, portanto a função de pressa foi desabilitada.'
+#Esta mensagem só é valida se a variável 'receber-automaticamente' for igual a true
+entrou-na-mina: '&aAqui na mina os VIPs tem pressa 2.'
+
+#Aqui você irá definir a permissão para usar o comando.
+permission: 'jpressa.usar'
+
+#Aqui você irá definir os mundos onde a função de pressa será desabilitada.
+desabilitar:
+  - 'fmap'
+  - 'vip'
+
+#Aqui você irá definir se quando o jogador se teleportar ao mundoMina, receber automaticamente o efeito.
+receber-automaticamente: false
